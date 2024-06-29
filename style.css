@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(7, 69, 49);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#form-container{
+    background-color: whitesmoke;
+    padding: 50px;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid rgb(0, 115, 255);
+}
+h2{
+    margin: 0px 0px 10px 0px;
+}
+input{
+    width: 200px;
+    margin: 10px 0px;
+    padding: 10px;
+}
+input[type="submit"]{
+    width: 255px;
+    margin: 10px 0px;
+    padding: 10px;
+    background-color: rgb(8, 77, 54);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.para{
+    color: red;
+    margin: 0px;
+    text-align: left;
+}
